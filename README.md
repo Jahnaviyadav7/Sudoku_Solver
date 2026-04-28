@@ -107,3 +107,6 @@ These are the improvements I'm working on:
 - [ ] Fix the Check button — move validity checking out of the Enter key handler and into its own function
 - [ ] Provide sample sudokus
 
+---
+
+## OOP Design
