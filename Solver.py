@@ -222,7 +222,7 @@ def openShidoku(): # function to open shidoku page
 
    #does the last remaining cell method
    def lastRemainingCell():
-      for digit in range (gridSize):#digit is the possible values of the puzzle
+      for digit in range (1, gridSize+1):#digit is the possible values of the puzzle
           count = 0 #counts how many instances of a number are in the grid
           found = False #shows if the number is found in the row or not
           for j in range (gridSize):
